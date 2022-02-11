@@ -15,59 +15,59 @@ $jsonFlex = [
     "contents" => [
 	
 
-  "type": "bubble",
-  "direction": "rtl",
-  "header": [
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
+  "type" => "bubble",
+  "direction" => "rtl",
+  "header" => [
+    "type" => "box",
+    "layout" => "vertical",
+    "contents" => [
       [
-        "type": "text",
-        "text": "สวัสดีท่านลูกค้า ตรอ",
-        "weight": "bold",
-        "size": "xl",
-        "align": "center",
-        "contents": []
+        "type" => "text",
+        "text" => "สวัสดีท่านลูกค้า ตรอ",
+        "weight" => "bold",
+        "size" => "xl",
+        "align" => "center",
+        "contents" => []
       ],
       [
-        "type": "text",
-        "text": "โปทางร้านเรามีโปรโมชั่นเด็ดๆ ",
-        "weight": "bold",
-        "align": "center",
-        "gravity": "bottom",
-        "contents": []
+        "type" => "text",
+        "text" => "โปทางร้านเรามีโปรโมชั่นเด็ดๆ ",
+        "weight" => "bold",
+        "align" => "center",
+        "gravity" => "bottom",
+        "contents" => []
       ],
       [
-        "type": "text",
-        "text": "สำหรับคุณโดยเฉพาะ",
-        "weight": "bold",
-        "align": "center",
-        "contents": []
+        "type" => "text",
+        "text" => "สำหรับคุณโดยเฉพาะ",
+        "weight" => "bold",
+        "align" => "center",
+        "contents" => []
       ]
     ]
   ],
-  "body": [
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
+  "body" => [
+    "type" => "box",
+    "layout" => "vertical",
+    "contents" => [
       [
-        "type": "text",
-        "text": "ตรวจสภาพรถพร้อม พรบ ลด 15%",
-        "align": "center",
-        "contents": []
+        "type" => "text",
+        "text" => "ตรวจสภาพรถพร้อม พรบ ลด 15%",
+        "align" => "center",
+        "contents" => []
       ]
     ]
   ],
-  "footer": [
-    "type": "box",
-    "layout": "horizontal",
-    "contents": [
+  "footer" => [
+    "type" => "box",
+    "layout" => "horizontal",
+    "contents" => [
       [
-        "type": "button",
-        "action": [
-          "type": "uri",
-          "label": "Youtube ความรู้",
-          "uri": "https://www.youtube.com/channel/UCVsgagmwK71BfwusWyjRS4A"
+        "type" => "button",
+        "action" => [
+          "type" => "uri",
+          "label" => "Youtube ความรู้",
+          "uri" => "https://www.youtube.com/channel/UCVsgagmwK71BfwusWyjRS4A"
         ]
       ]
     ]
