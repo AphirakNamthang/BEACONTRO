@@ -13,65 +13,127 @@ $jsonFlex = [
     "type" => "flex",
     "altText" => "Hello Flex Message",
     "contents" => [
-	
 
-  "type" => "bubble",
-  "direction" => "rtl",
-  "header" => [
-    "type" => "box",
-    "layout" => "vertical",
+
+$jsonFlex = [
+    "type" => "flex",
+    "altText" => "Hello TRO Message",
     "contents" => [
-      [
-        "type" => "text",
-        "text" => "สวัสดีท่านลูกค้า ตรอ",
-        "weight" => "bold",
-        "size" => "xl",
-        "align" => "center",
-        "contents" => []
+      "type" => "bubble",
+      "direction" => "ltr",
+      "header" => [
+        "type" => "box",
+        "layout" => "vertical",
+        "contents" => [
+          [
+            "type" => "text",
+            "text" => "PROMOTION",
+            "size" => "lg",
+            "align" => "start",
+            "weight" => "bold",
+            "color" => "#009813"
+          ],
+          [
+            "type" => "text",
+            "text" => "฿ 100.00",
+            "size" => "3xl",
+            "weight" => "bold",
+            "color" => "#000000"
+          ],
+          [
+            "type" => "text",
+            "text" => "TRO SERVICE",
+            "size" => "lg",
+            "weight" => "bold",
+            "color" => "#000000"
+          ],
+          [
+            "type" => "text",
+            "text" => "2022.02.14 21:47 (GMT+0700)",
+            "size" => "xs",
+            "color" => "#B2B2B2"
+          ],
+          [
+            "type" => "text",
+            "text" => "Payment complete.",
+            "margin" => "lg",
+            "size" => "lg",
+            "color" => "#000000"
+          ]
+        ]
       ],
-      [
-        "type" => "text",
-        "text" => "โปทางร้านเรามีโปรโมชั่นเด็ดๆ ",
-        "weight" => "bold",
-        "align" => "center",
-        "gravity" => "bottom",
-        "contents" => []
+      "body" => [
+        "type" => "box",
+        "layout" => "vertical",
+        "contents" => [
+          [
+            "type" => "separator",
+            "color" => "#C3C3C3"
+          ],
+          [
+            "type" => "box",
+            "layout" => "baseline",
+            "margin" => "lg",
+            "contents" => [
+              [
+                "type" => "text",
+                "text" => "Merchant",
+                "align" => "start",
+                "color" => "#C3C3C3"
+              ],
+              [
+                "type" => "text",
+                "text" => "BTS 01",
+                "align" => "end",
+                "color" => "#000000"
+              ]
+            ]
+          ],
+          [
+            "type" => "box",
+            "layout" => "baseline",
+            "margin" => "lg",
+            "contents" => [
+              [
+                "type" => "text",
+                "text" => "New balance",
+                "color" => "#C3C3C3"
+              ],
+              [
+                "type" => "text",
+                "text" => "฿ 45.57",
+                "align" => "end"
+              ]
+            ]
+          ],
+          [
+            "type" => "separator",
+            "margin" => "lg",
+            "color" => "#C3C3C3"
+          ]
+        ]
       ],
-      [
-        "type" => "text",
-        "text" => "สำหรับคุณโดยเฉพาะ",
-        "weight" => "bold",
-        "align" => "center",
-        "contents" => []
-      ]
-    ]
-  ],
-  "body" => [
-    "type" => "box",
-    "layout" => "vertical",
-    "contents" => [
-      [
-        "type" => "text",
-        "text" => "ตรวจสภาพรถพร้อม พรบ ลด 15%",
-        "align" => "center",
-        "contents" => []
-      ]
-    ]
-  ],
-  "footer" => [
-    "type" => "box",
-    "layout" => "horizontal",
-    "contents" => [
-      [
-        "type" => "button",
-        "action" => [
-          "type" => "uri",
-          "label" => "Youtube ความรู้",
-          "uri" => "https://www.youtube.com/channel/UCVsgagmwK71BfwusWyjRS4A"
+      "footer" => [
+        "type" => "box",
+        "layout" => "horizontal",
+        "contents" => [
+          [
+            "type" => "text",
+            "text" => "View Details",
+            "size" => "lg",
+            "align" => "start",
+            "color" => "#0084B6",
+            "action" => [
+              "type" => "uri",
+              "label" => "View Details",
+              "uri" => "https://google.co.th/"
+            ]
+          ]
         ]
       ]
     ]
-  ]
+  ];
+
 	  
     ]
   ];
