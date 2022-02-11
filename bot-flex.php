@@ -21,7 +21,7 @@ $jsonFlex = [
         "contents" => [
           [
             "type" => "text",
-            "text" => "พิเศษสำหรับท่านลูกค้า ตรอ.",
+            "text" => "อย่าพลาดสำหรับท่านลูกค้า ตรอ.",
             "size" => "lg",
             "align" => "start",
             "weight" => "bold",
@@ -29,14 +29,14 @@ $jsonFlex = [
           ],
           [
             "type" => "text",
-            "text" => "รับส่วนลดลดทันที",
+            "text" => "ลดลดทันที",
             "size" => "3xl",
             "weight" => "bold",
             "color" => "#000000"
           ],
           [
             "type" => "text",
-            "text" => "สำหรับลกค้าที่ตรวจสภาพพร้อมต่อ พรบ",
+            "text" => "สำหรับลูกค้าคนพิเศษ",
             "size" => "lg",
             "weight" => "bold",
             "color" => "#000000"
