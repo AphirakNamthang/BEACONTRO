@@ -11,12 +11,6 @@ $request_array = json_decode($request, true);   // Decode JSON to Array
 
 $jsonFlex = [
     "type" => "flex",
-    "altText" => "Hello Flex Message",
-    "contents" => [
-
-
-$jsonFlex = [
-    "type" => "flex",
     "altText" => "Hello TRO Message",
     "contents" => [
       "type" => "bubble",
@@ -133,12 +127,6 @@ $jsonFlex = [
       ]
     ]
   ];
-
-	  
-    ]
-  ];
-
-
 
 if ( sizeof($request_array['events']) > 0 ) {
     foreach ($request_array['events'] as $event) {
