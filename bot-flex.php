@@ -21,7 +21,7 @@ $jsonFlex = [
         "contents" => [
           [
             "type" => "text",
-            "text" => "โปรโมชั่นวันนี้",
+            "text" => "พิเศษสำหรับท่านลูกค้า ตรอ.",
             "size" => "lg",
             "align" => "start",
             "weight" => "bold",
@@ -29,27 +29,27 @@ $jsonFlex = [
           ],
           [
             "type" => "text",
-            "text" => "฿ 100.00",
+            "text" => "ลดทันที ฿ 100.00",
             "size" => "3xl",
             "weight" => "bold",
             "color" => "#000000"
           ],
           [
             "type" => "text",
-            "text" => "TRO SERVICE",
+            "text" => "สำหรับลกค้าที่ตรวจสภาพพร้อมต่อ พรบ",
             "size" => "lg",
             "weight" => "bold",
             "color" => "#000000"
           ],
           [
             "type" => "text",
-            "text" => "2022.02.14 21:47 (GMT+0700)",
+            "text" => "2022.02.02 21:47 (GMT+0700)",
             "size" => "xs",
             "color" => "#B2B2B2"
           ],
           [
             "type" => "text",
-            "text" => "Payment complete.",
+            "text" => "โปรโมชั่นวันนี้",
             "margin" => "lg",
             "size" => "lg",
             "color" => "#000000"
@@ -71,13 +71,13 @@ $jsonFlex = [
             "contents" => [
               [
                 "type" => "text",
-                "text" => "Merchant",
+                "text" => "ตรวจสภาพ",
                 "align" => "start",
                 "color" => "#C3C3C3"
               ],
               [
                 "type" => "text",
-                "text" => "BTS 01",
+                "text" => "ลด 10%",
                 "align" => "end",
                 "color" => "#000000"
               ]
@@ -90,12 +90,12 @@ $jsonFlex = [
             "contents" => [
               [
                 "type" => "text",
-                "text" => "New balance",
+                "text" => "ต่อ พรบ.",
                 "color" => "#C3C3C3"
               ],
               [
                 "type" => "text",
-                "text" => "฿ 45.57",
+                "text" => "ลด 15%",
                 "align" => "end"
               ]
             ]
@@ -119,8 +119,8 @@ $jsonFlex = [
             "color" => "#0084B6",
             "action" => [
               "type" => "uri",
-              "label" => "View Details",
-              "uri" => "https://google.co.th/"
+              "label" => "Youtube ความรู้",
+              "uri" => "https://www.youtube.com/channel/UCVsgagmwK71BfwusWyjRS4A"
             ]
           ]
         ]
