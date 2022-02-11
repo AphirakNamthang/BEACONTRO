@@ -29,8 +29,8 @@ $jsonFlex = [
           ],
           [
             "type" => "text",
-            "text" => "ลดทันที ฿ 100.00",
-            "size" => "3xl",
+            "text" => "รับส่วนลดลดทันที",
+            "size" => "3x1",
             "weight" => "bold",
             "color" => "#000000"
           ],
@@ -113,13 +113,13 @@ $jsonFlex = [
         "contents" => [
           [
             "type" => "text",
-            "text" => "View Details",
+            "text" => "Youtube ความรู้",
             "size" => "lg",
             "align" => "start",
             "color" => "#0084B6",
             "action" => [
               "type" => "uri",
-              "label" => "Youtube ความรู้",
+              "label" => "View Details",
               "uri" => "https://www.youtube.com/channel/UCVsgagmwK71BfwusWyjRS4A"
             ]
           ]
