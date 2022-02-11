@@ -30,7 +30,7 @@ $jsonFlex = [
           [
             "type" => "text",
             "text" => "รับส่วนลดลดทันที",
-            "size" => "3x1",
+            "size" => "3xl",
             "weight" => "bold",
             "color" => "#000000"
           ],
