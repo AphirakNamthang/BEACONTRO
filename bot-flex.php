@@ -21,7 +21,7 @@ $jsonFlex = [
         "contents" => [
           [
             "type" => "text",
-            "text" => "อย่าพลาดสำหรับท่านลูกค้า ตรอ.",
+            "text" => "ตรวจสภาพรถวันนี้",
             "size" => "lg",
             "align" => "start",
             "weight" => "bold",
@@ -49,7 +49,7 @@ $jsonFlex = [
           ],
           [
             "type" => "text",
-            "text" => "โปรโมชั่นวันนี้",
+            "text" => "โปรโมชั่นของเรา",
             "margin" => "lg",
             "size" => "lg",
             "color" => "#000000"
